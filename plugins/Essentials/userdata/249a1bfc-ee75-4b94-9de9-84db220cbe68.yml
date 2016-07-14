@@ -1,0 +1,29 @@
+lastAccountName: CuddlleBear
+timestamps:
+  login: 1441492431866
+  logout: 1441498458508
+  lastteleport: 1441430004871
+ipAddress: 71.14.92.33
+lastlocation:
+  world: survival
+  x: 623.3999449032833
+  y: 75.0
+  z: -1777.3202697166457
+  yaw: 43.347046
+  pitch: 19.944914
+homes:
+  home:
+    world: survival
+    x: 1126.4109184524843
+    y: 70.0
+    z: 2582.699999988079
+    yaw: 194.41908
+    pitch: 24.789722
+logoutlocation:
+  world: survival
+  x: 1121.71493448456
+  y: 70.0
+  z: 2577.6206456115683
+  yaw: -4.2437744
+  pitch: 13.686919
+afk: false

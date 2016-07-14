@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# intended to back up essential pieces of the game
+
+# # pre things
+nameof=`(date +%s)`
+#rmme=`(echo ${nameof} | awk {'print $1 - 200'})`
+#rmme2month=${rmme:0:4}
+
+rm -rf ~mine/minerscraft/essential_back*.t
+rm -rf ~mine/minerscraft/worldback/survival*
+rsync -at ~mine/minerscraft/run/survival* ~mine/minerscraft/worldback/
+
+
+# # plugin configs needed
+rm -rf ~mine/minerscraft/plugback/*
+rsync -at ~mine/minerscraft/run/plugins/{ClearLag,Clearlag.jar,bPermissions.jar,bPermissions,EssentialsSpawn.jar,Essentials.jar,Essentials,WorldBorder,WorldBorder.jar,worldedit-bukkit-6.0.jar,WorldGuard,worldguard-6.0.0-beta-05.jar,WorldEdit,dynmap-mobs.jar,dynmap-2.2-alpha-2.jar} ~mine/minerscraft/plugback/
+mkdir ~mine/minerscraft/plugback/dynmap ; rsync -at ~mine/minerscraft/run/plugins/dynmap/{configuration.txt,custom-lightings.txt,custom-perspectives.txt,custom-shaders.txt,ids-by-ip.txt,lightings.txt,markers.yml,perspectives.txt,shaders.txt,version.txt,worlds.txt} ~mine/minerscraft/plugback/dynmap/
+
+# # server configs needed
+rm -rf ~mine/minerscraft/configback/*
+rsync -at ~mine/minerscraft/run/{server-icon.png,banned-players.json,bukkit.yml,commands.yml,bucket.jar,banned-ips.json,back,run,eula.txt,server.properties,usercache.json,whitelist.json,wepif.yml,ops.json,help.yml} ~mine/minerscraft/configsback/
+
+# # logs
+rm -rf ~mine/minerscraft/logsback/*
+rsync -at ~mine/minerscraft/run/logs/* ~mine/minerscraft/logsback/
+
+# # time to zip it all up and stuff...
+tar -cf ~mine/minerscraft/essential_back.${nameof,1}.t ~mine/minerscraft/{configs,plug,world,logs}back
+echo "completed backup essential_back.${nameof,1}.t" >> ~mine/minerscraft/run/logs/latest.log

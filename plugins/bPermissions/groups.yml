@@ -1,0 +1,51 @@
+default: default
+groups:
+  default:
+    permissions:
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.balance
+    - essentials.balancetop
+    - essentials.compass
+    - essentials.delhome
+    - essentials.eco
+    - essentials.firework
+    - essentials.firework.fire
+    - essentials.hat
+    - essentials.help
+    - essentials.home
+    - essentials.home.bed
+    - essentials.itemdb
+    - essentials.kit
+    - essentials.kit.*
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.msg
+    - essentials.msg.color
+    - essentials.msg.format
+    - essentials.pay
+    - essentials.realname
+    - essentials.recipe
+    - essentials.rules
+    - essentials.seen
+    - essentials.sell
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.sethome.multiple
+    - essentials.spawn
+    - essentials.suicide
+    - essentials.tpa
+    - essentials.tpaall
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warps.*
+    - essentials.worlds.*
+    - essentials.worth
+    - ^bukkit.command.plugins
+    groups: []

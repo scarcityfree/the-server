@@ -1,0 +1,24 @@
+cfg-version: 11
+message: '&7... &4&l  strange things began to happen &7 ...  &r near the edge'
+round-border: false
+debug-mode: false
+whoosh-effect: false
+portal-redirection: true
+knock-back-dist: 2.0
+timer-delay-ticks: 5
+remount-delay-ticks: 0
+dynmap-border-enabled: true
+dynmap-border-message: The border of the world.
+player-killed-bad-spawn: false
+deny-enderpearl: false
+fill-autosave-frequency: 30
+bypass-list-uuids: []
+fill-memory-tolerance: 500
+prevent-block-place: false
+worlds:
+  survival:
+    x: 179.41271389360676
+    z: 275.1806582797451
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: true

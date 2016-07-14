@@ -1,0 +1,63 @@
+lastAccountName: knope
+timestamps:
+  login: 1448299280493
+  lastteleport: 1446844751650
+  logout: 1448299877923
+  kits:
+    tools: 1442283748841
+    knope: 1440540195278
+    dtools: 1442283696995
+    welcome: 1439757155804
+ipAddress: 184.191.212.25
+afk: false
+lastlocation:
+  world: survival
+  x: 540.7970801128099
+  y: 81.16555275232166
+  z: -718.094411455377
+  yaw: 199.36153
+  pitch: 40.53959
+homes:
+  twinmountain:
+    world: survival
+    x: 1063.555632611925
+    y: 131.0
+    z: -1418.1822783717032
+    yaw: -296.8499
+    pitch: 20.850067
+  frontdoor:
+    world: survival
+    x: 1065.323263675912
+    y: 127.0
+    z: -1414.974902597458
+    yaw: 40.200047
+    pitch: 19.200066
+  home:
+    world: survival
+    x: 620.0935073097087
+    y: 78.0
+    z: -1747.745398548407
+    yaw: 263.63416
+    pitch: 3.5446465
+  savevilla:
+    world: survival
+    x: 620.0935073097087
+    y: 78.0
+    z: -1747.745398548407
+    yaw: 263.63416
+    pitch: 3.5446465
+  home2:
+    world: survival
+    x: 408.32280198958074
+    y: 59.0
+    z: -611.3004963690653
+    yaw: 67.95117
+    pitch: 28.773594
+logoutlocation:
+  world: survival
+  x: -422.3126873184584
+  y: 64.0
+  z: 1472.1643964416764
+  yaw: -91.19324
+  pitch: 19.200058
+godmode: true

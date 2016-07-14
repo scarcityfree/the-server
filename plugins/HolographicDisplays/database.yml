@@ -1,0 +1,69 @@
+welcome:
+  location: survival, 181.160, 64.200, 280.245
+  lines:
+  - '- Scarcityfree.com -'
+welcome1:
+  location: survival, 181.721, 65.112, 281.243
+  lines:
+  - '- map and stats available via webbrowser -'
+peaceland0:
+  location: survival, 187.974, 66.591, 280.846
+  lines:
+  - 'ICON: diamond'
+  - ..
+  - '...'
+  - muhahaahaha
+peaceland3:
+  location: survival, 234.283, 69.200, 284.709
+  lines:
+  - 'ICON: egg'
+  - '...this village is haunted...'
+peaceland4:
+  location: survival, 246.139, 68.200, 274.491
+  lines:
+  - .. the metro is ..
+  - 'ICON: rails'
+peaceland5:
+  location: survival, 244.113, 68.200, 261.050
+  lines:
+  - .. this ..
+  - 'ICON: rails'
+peaceland6:
+  location: survival, 231.556, 68.200, 250.738
+  lines:
+  - .. way.
+  - 'ICON: rails'
+peaceland7:
+  location: survival, 226.104, 66.200, 243.512
+  lines:
+  - .. hurry now....
+  - 'ICON: rails'
+peaceland8:
+  location: survival, 209.120, 55.200, 250.641
+  lines:
+  - .. you'll need a minecart......
+  - 'ICON: minecart'
+peaceland9:
+  location: survival, 188.348, 55.200, 250.296
+  lines:
+  - '......you''ll get ithe 1k acheive for this...'
+  - .. this is a long ride... better go get a drink...
+peaceland10:
+  location: survival, 208.702, 58.200, 239.672
+  lines:
+  - 'ICON: iron ore'
+  - 'ICON: iron ingot'
+  - 'ICON: iron block'
+  - '*creepy wooshing sound*'
+  - '*........>*'
+mumble0:
+  location: survival, 176.422, 65.155, 280.339
+  lines:
+  - Mumble server available! :)
+  - 'uri: mumble.scarcityfree.com'
+  - 'password: minecraft'
+waytometro:
+  location: survival, 234.542, 66.200, 258.333
+  lines:
+  - '...'
+  - '...'

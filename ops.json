@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "a1ac9c08-16b8-4e82-9bc5-adef2f7fc50a",
+    "name": "helicopterfeet",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "091f7ee2-9e3c-4fc3-8ae1-082c10e8d8f4",
+    "name": "mocopter",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "1b5cb512-b704-42a8-96bf-e3975bd1e04a",
+    "name": "pclose",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
